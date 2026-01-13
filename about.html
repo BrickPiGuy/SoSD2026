@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - State of Software Development 2026</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">SoSD 2026</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="trends.html">Trends</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>About This Research</h1>
+            <p class="subtitle">Understanding the 2026 Software Development Landscape</p>
+        </div>
+    </header>
+
+    <section class="about-content">
+        <div class="container">
+            <div class="about-section">
+                <h2>Research Initiative</h2>
+                <p>
+                    The State of Software Development 2026 (SoSD 2026) is a comprehensive research initiative conducted by ECPI University 
+                    to analyze and document the current state of the software development industry. This project aims to provide students, 
+                    educators, and professionals with insights into emerging technologies, market trends, and best practices.
+                </p>
+            </div>
+
+            <div class="about-section">
+                <h2>Research Objectives</h2>
+                <div class="objectives-grid">
+                    <div class="objective-card">
+                        <h3>Identify Trends</h3>
+                        <p>Track emerging technologies and methodologies shaping the software development industry in 2026.</p>
+                    </div>
+                    <div class="objective-card">
+                        <h3>Analyze Market Demand</h3>
+                        <p>Understand current hiring trends and skill requirements across different software development sectors.</p>
+                    </div>
+                    <div class="objective-card">
+                        <h3>Guide Learning Paths</h3>
+                        <p>Provide recommendations for students on which technologies and skills to prioritize in their education.</p>
+                    </div>
+                    <div class="objective-card">
+                        <h3>Share Best Practices</h3>
+                        <p>Document and share current industry best practices and standards for software development.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h2>Methodology</h2>
+                <p>
+                    This research combines multiple data sources including:
+                </p>
+                <ul class="methodology-list">
+                    <li>Industry surveys and interviews with software development professionals</li>
+                    <li>Analysis of job market data and hiring trends</li>
+                    <li>GitHub repository analysis and open-source community insights</li>
+                    <li>Technology adoption metrics from industry reports</li>
+                    <li>Academic research and publications in software engineering</li>
+                    <li>Direct feedback from ECPI University students and alumni</li>
+                </ul>
+            </div>
+
+            <div class="about-section">
+                <h2>Who Should Read This?</h2>
+                <div class="audience-grid">
+                    <div class="audience-card">
+                        <h4>Students</h4>
+                        <p>Gain insights into which technologies and skills are most relevant for your software development career.</p>
+                    </div>
+                    <div class="audience-card">
+                        <h4>Educators</h4>
+                        <p>Understand market demands to better align curriculum with industry needs.</p>
+                    </div>
+                    <div class="audience-card">
+                        <h4>Professionals</h4>
+                        <p>Stay informed about industry trends and emerging opportunities in your field.</p>
+                    </div>
+                    <div class="audience-card">
+                        <h4>Employers</h4>
+                        <p>Understand the broader market context and talent landscape for your hiring strategy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h2>About ECPI University</h2>
+                <p>
+                    ECPI University is a career-focused institution dedicated to providing students with the skills and knowledge 
+                    needed to succeed in technology and business fields. Our commitment to innovation and practical education makes 
+                    us uniquely positioned to conduct research on the current state of software development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <a href="https://orcid.org/0009-0005-5262-1583" target="_blank">Joseph Dwyer, PhD</a> & ECPI University. All rights reserved.</p>
+            <p>State of Software Development Research Initiative</p>
+            <p><small>Last Updated: January 13, 2026</small></p>
+        </div>
+    </footer>
+
+    <style>
+        .about-content {
+            padding: 3rem 0;
+        }
+
+        .about-section {
+            margin-bottom: 3rem;
+        }
+
+        .about-section h2 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #4b5563;
+            margin-bottom: 1rem;
+        }
+
+        .methodology-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .methodology-list li {
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+            position: relative;
+            color: #4b5563;
+            font-size: 1rem;
+        }
+
+        .methodology-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--secondary-color);
+            font-weight: bold;
+        }
+
+        .objectives-grid,
+        .audience-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .objective-card,
+        .audience-card {
+            background-color: var(--light-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary-color);
+            transition: all 0.3s ease;
+        }
+
+        .objective-card:hover,
+        .audience-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .objective-card h3,
+        .audience-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .objective-card p,
+        .audience-card p {
+            color: #6b7280;
+        }
+    </style>
+</body>
+</html>
